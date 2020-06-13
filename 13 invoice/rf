@@ -1,0 +1,2790 @@
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- content_template_1.jsp start-->
+
+
+
+
+
+
+
+	
+
+
+    
+        
+    
+    
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="zh-TW">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta property="og:site_name" content="財政部稅務入口網" />
+    
+      
+      
+      
+        <meta property="og:title" content="統一發票管理-財政部稅務入口網" />
+        <meta property="og:description" content="統一發票管理-財政部稅務入口網" />
+      
+    
+    <meta property="og:url" content="http://localhost/etwmain/web/ETW183W2" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="http://localhost/etwmain/pt/FDC_AL01NEW9/1//webimages/fb-share-logo.jpg" />
+
+    
+        
+        <meta property="og:locale" content="zh_TW" />
+    
+
+    <title>統一發票管理-財政部稅務入口網</title>
+
+    <meta name="pagebase" content="etwmain" />
+    <meta name="funccode" content="ETW183W1" />
+    <meta name="DC.Title" content="統一發票管理" />
+    <meta name="DC.Subject" content="統一發票管理" />
+    <meta name="Keywords" content="統一發票管理" />
+    <meta name="DC.Creator" content="財政部財政資訊中心" />
+    <meta name="DC.Publisher" content="財政部財政資訊中心" />
+    <meta name="DC.Identifier" content="A07100000D" />
+    <meta name="DC.Type" content="文字" />
+    <meta name="DC.Date" content="2019-03-28" />
+    <meta name="DC.coverage.t.min" content="2019-03-28" />
+    <meta name="DC.coverage.t.max" content="2019-03-28" />
+    <meta name="Category.Theme" content="540" />
+    <meta name="Category.Cake" content="450" />
+    <meta name="Category.Service" content="641" />
+    <meta name="DC.Format" content="text/html" />
+    <meta name="DC.Contributor" content="統一發票管理" />
+    <meta name="DC.Relation" content="無" />
+    <meta name="DC.Source" content="統一發票管理" />
+    <!-- null -->
+    
+    <meta name="DC.Language" content="zh" />
+    <meta name="DC.Coverage" content="" />
+    <meta name="DC.Rights" content="統一發票管理" />
+    <meta name="DC.Description" content="本網站目的在公佈財政部對外相關訊息" />
+
+    
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/etwmain/resources/web/css/jquery-ui-1.8.2.custom.css" rel="stylesheet" />
+
+
+
+         
+        <link href="/etwmain/resources/web/css/bootstrap.min.fia.css" rel="stylesheet" />
+    
+    
+ 
+
+
+<link href="/etwmain/resources/web/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+<link href="/etwmain/resources/web/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+<link href="/etwmain/resources/web/css/social-buttons-3.css" rel="stylesheet" />
+<link href="/etwmain/resources/web/css/scrollfix.css" rel="stylesheet" />
+<link href="/etwmain/resources/web/slick/slick.css" rel="stylesheet" />
+<link href="/etwmain/resources/web/slick/slick-theme.css" rel="stylesheet" />
+<link href="/etwmain/resources/web/css/daterangepicker-bs3.css" rel="stylesheet" media="all">
+<link href="/etwmain/resources/web/css/fullcalendar.min.css" rel="stylesheet">
+<link href="/etwmain/resources/web/css/fullcalendar.print.css" rel="stylesheet" media='print'>
+
+<link href="/etwmain/resources/web/css/footable.core.css?v=2-0-1" rel="stylesheet">
+<link href="/etwmain/resources/web/css/footable.sortable-0.1.css" rel="stylesheet">
+<link href="/etwmain/resources/web/css/footable.standalone.css" rel="stylesheet">
+
+
+
+         
+        <link href="/etwmain/resources/web/css/main.fia.css" rel="stylesheet" />
+    
+    
+ 
+
+   
+<!-- w3c html5 validate -->
+<style type="text/css">
+		.gsc-selected-option-container {
+			background-color: transparent;
+			border: 1px solid #eee;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			border-radius: 2px;
+			box-shadow: 0 1px 1px #eee;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			color: #444;
+			cursor: default;
+			font-size: 11px;
+			font-weight: bold;
+			height: 27px;
+			line-height: 27px;
+			max-width: 90%;
+			min-width: 54px;
+			outline: 0;
+			padding: 0 28px 0 6px;
+			position: relative;
+			text-align: center;
+			width: 100px!important;
+		}
+		.cse .gsc-search-button-v2, .gsc-search-button-v2{
+		 
+                  
+			    padding: 6px 27px;
+                  
+                  
+                
+		}
+		.input-group {
+			position: relative;
+			display: block;
+			border-collapse: separate;
+		}
+		@media (max-width: 769px) {
+			.gsc-control-cse {
+              
+                  
+			background-color: #12183d !important;
+                  
+                  
+              
+				border:0px !important;
+				padding:0px !important;
+				z-index:10000;
+
+			}
+			#nav {
+				overflow:visible;
+			}
+			.gsc-results-wrapper-overlay{
+				width:98%  !important;
+				left :0% !important;
+				-webkit-overflow-scrolling: touch;
+			}
+			td.gsc-search-button {
+			
+				
+				width : 30px !important;
+				
+				
+			
+				
+			}
+			td.gsc-clear-button{
+				width : 10px !important;
+				margin:0px !important;
+				padding:0px !important;
+			}
+
+		}
+		@media (min-width: 768px) {
+			.gsc-control-cse {
+              
+                  
+                  background-color: #e8eaf6 !important;
+                  
+                  
+              
+			}
+		}
+
+		@media (min-width: 769px) {
+			.gsc-control-cse {
+				width: 100%;
+			}
+		}
+		@media screen and (min-width: 668px) and (max-width: 768px) {
+			.gsc-control-cse {
+				width: 200%;
+			}
+		}
+		@media screen and (min-width: 569px) and (max-width: 669px) {
+			.gsc-control-cse {
+				width: 250%;
+			}
+		}
+		@media screen and (min-width: 500px) and (max-width: 568px) {
+			.gsc-control-cse {
+				width: 240%;
+			}
+		}
+		@media screen and (min-width: 420px) and (max-width: 499px) {
+			.gsc-control-cse {
+				width: 200%;
+			}
+		}
+		@media screen and (min-width: 320px) and (max-width: 419px) {
+			.gsc-control-cse {
+				width: 140%;
+			}
+		}
+		@media (max-width: 319px) {
+			.gsc-control-cse {
+				width: 130%;
+			}
+		}
+</style>
+    
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- [if lt IE 10]> 
+<script src="/etwmain/resources/web/js/polyfill.min.js"></script>
+<![endif]-->
+<script src="/etwmain/resources/web/js/combined.min.js"></script>
+<script src="/etwmain/resources/web/slick/slick.min.js" ></script>
+
+<script src="/etwmain/resources/web/js/etw.commonUtil.js" ></script>
+<script src="/etwmain/resources/web/js/etw.newsUtil.js" ></script>
+<script src="/etwmain/resources/web/js/main.js" ></script>
+<!-- google psi -->
+<!-- <script src="/etwmain/resources/web/js/lazyloading.js" ></script> -->
+
+
+
+
+
+<script>
+	var orgId = 'FDC';
+	var analyticsId = '';
+	if ("FDC"==orgId){
+		analyticsId = 'UA-112407743-1';
+	}else if ("A05"==orgId){
+		analyticsId = 'UA-98344279-1';
+	}else if ("H01"==orgId){
+		analyticsId = 'UA-89176252-1';
+	}else if ("B01"==orgId){
+		analyticsId = 'UA-98352109-1';
+	}else if ("D01"==orgId){
+		analyticsId = 'UA-98281607-1';
+	}else{
+		analyticsId = 'UA-91845628-1';
+	}
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', analyticsId, 'auto');
+      ga('send', 'pageview');
+</script>
+<!-- JQuery 
+
+<script src="/etwmain/resources/web/js/jquery-combined.min.js"></script>
+<script src="/etwmain/resources/web/js/bootstrap-combined.min.js"></script>
+-->
+<!-- util js 
+<script src="/etwmain/resources/web/js/underscore-min.js"></script>
+<script src="/etwmain/resources/web/js/intention.js"></script>
+<script src="/etwmain/resources/web/js/context.js"></script>
+<script src="/etwmain/resources/web/js/enquire.min.js"></script>
+<script src="/etwmain/resources/web/slick/slick.min.js"></script>
+<script src="/etwmain/resources/web/js/footable.js?v=2-0-1" ></script>
+<script src="/etwmain/resources/web/js/footable.filter.js?v=2-0-1" ></script>
+<script src="/etwmain/resources/web/js/footable.sort.js?v=2-0-1" ></script>
+<script src="/etwmain/resources/web/js/footable.paginate.js?v=2-0-1" ></script>
+<script src="/etwmain/resources/web/js/moment-with-locales.min.js"></script>
+<script src="/etwmain/resources/web/js/daterangepicker.js"></script>
+<script src="/etwmain/resources/web/js/etw.commonUtil.js"></script>
+<script src="/etwmain/resources/web/js/etw.newsUtil.js"></script>
+-->
+
+<!-- main.js
+<script src="/etwmain/resources/web/js/main.js"></script>
+--> 
+<script>
+	
+    $('.newspg').bootpag({
+        total: 105,
+        page: 1,
+        maxVisible: 15
+    }).on('page', function(event, num){
+        $(".pgcontent").html("Page " + num); // or some ajax content loading...
+    });
+</script>
+
+
+
+    
+
+    <script type="text/javascript">
+      jQuery(function($) {
+        var navMenu = [
+        
+          { 'display': 'Y',
+            'title': '公告訊息',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/383'
+            
+              ,'subMenu': [
+                
+                  { 'title': '稅務新聞',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/444'
+                  },
+                
+                  { 'title': '稅務新聞(分類瀏覽)',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/384'
+                  },
+                
+                  { 'title': '核定稅額公告',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/386'
+                  },
+                
+                  { 'title': '招標資訊',
+                    'link': 'https://web.pcc.gov.tw/tps/pss/tender.do?method=goSearch&searchMode=common&searchType=basic'
+                  },
+                
+                  { 'title': '就業資訊',
+                    'link': 'https://www.mof.gov.tw/multiplehtml/143'
+                  },
+                
+                  { 'title': '統一發票中獎號碼',
+                    'link': 'http://www.etax.nat.gov.tw/etwmain/front/ETW183W1'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '重大政策',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/667'
+            
+              ,'subMenu': [
+                
+                  { 'title': '行政院院會議案',
+                    'link': 'https://www.ey.gov.tw/Page/B572E2F7D8DF5CE1'
+                  },
+                
+                  { 'title': '行政院院長指示事項',
+                    'link': 'https://www.ndc.gov.tw/News.aspx?n=366BF6F932D66304&page=1&PageSize=20'
+                  },
+                
+                  { 'title': '財政資訊發展方案',
+                    'link': 'https://www.fia.gov.tw/News.aspx?n=DD102593FDB1A032&sms=3CCB96BC3393301B'
+                  },
+                
+                  { 'title': '財政部施政計畫',
+                    'link': 'https://www.mof.gov.tw/singlehtml/133?cntId=1217'
+                  },
+                
+                  { 'title': '財政部賦稅署重要措施',
+                    'link': 'https://www.dot.gov.tw/ch/home.jsp?id=313&parentpath=0,9,309'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '稅務資訊',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/665'
+            
+              ,'subMenu': [
+                
+                  { 'title': '認識稅務',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/402'
+                  },
+                
+                  { 'title': '法規查詢',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/424'
+                  },
+                
+                  { 'title': '統計資訊',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/673'
+                  },
+                
+                  { 'title': '購買節能電器退還減徵貨物稅專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1212'
+                  },
+                
+                  { 'title': '汰換舊車購買新車減徵貨物稅',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1011'
+                  },
+                
+                  { 'title': '網路交易課稅專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/674'
+                  },
+                
+                  { 'title': '房地移轉稅務試算專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/848'
+                  },
+                
+                  { 'title': '預先審核貨物稅徵免專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/703/5808982768282736763'
+                  },
+                
+                  { 'title': '外商參展退稅',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/618'
+                  },
+                
+                  { 'title': '新舊菸品辨識專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/916'
+                  },
+                
+                  { 'title': '應稅貨物或菸酒變質損壞銷毀專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/1279/5558487700125663865'
+                  },
+                
+                  { 'title': '新創稅務E指通',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/1016/7267883069178715736'
+                  },
+                
+                  { 'title': '反避稅專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1168'
+                  },
+                
+                  { 'title': '跨局申辦服務',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1210'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '外僑稅務服務',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/425'
+            
+              ,'subMenu': [
+                
+                  { 'title': '外僑與綜合所得稅',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/426'
+                  },
+                
+                  { 'title': '外僑稅務FAQ',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/427'
+                  },
+                
+                  { 'title': '個人所得基本稅額',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/428'
+                  },
+                
+                  { 'title': '個人房屋土地交易所得稅申報(房地合一)',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/911'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '線上服務',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/666'
+            
+              ,'subMenu': [
+                
+                  { 'title': '受肺炎疫情影響 申請延期、分期繳稅',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1268'
+                  },
+                
+                  { 'title': '電子稅務文件入口網',
+                    'link': 'https://etd.etax.nat.gov.tw'
+                  },
+                
+                  { 'title': '線上申辦',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/21'
+                  },
+                
+                  { 'title': '線上查調',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/22'
+                  },
+                
+                  { 'title': '線上稅務試算',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/23'
+                  },
+                
+                  { 'title': '公示資料查詢',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/24'
+                  },
+                
+                  { 'title': '電子申報繳稅服務',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/439'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '書表及檔案下載',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/440'
+            
+              ,'subMenu': [
+                
+                  { 'title': '申請書表及範例下載',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW212W'
+                  },
+                
+                  { 'title': '免費軟體下載',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/443'
+                  },
+                
+                  { 'title': '繳款書種類及格式',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1263'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '交流園地',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/96'
+            
+              ,'subMenu': [
+                
+                  { 'title': '國稅信箱',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/698/8342898852310379840'
+                  },
+                
+                  { 'title': '地方稅信箱',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/380/7387645452379223501'
+                  },
+                
+                  { 'title': '網站信箱',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW140W'
+                  },
+                
+                  { 'title': '相關連結',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/433'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '稅額試算',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1206'
+            
+              ,'subMenu': [
+                
+                  { 'title': '稅額試算專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1207'
+                  }
+                
+              ]
+            
+          },
+        
+          { 'display': 'Y',
+            'title': '境外電商課稅專區',
+            'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1058'
+            
+              ,'subMenu': [
+                
+                  { 'title': '營業稅專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/954'
+                  },
+                
+                  { 'title': '營利事業所得稅專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1059'
+                  },
+                
+                  { 'title': '扣繳專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1069'
+                  },
+                
+                  { 'title': '雲端發票專區',
+                    'link': 'https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1135'
+                  }
+                
+              ]
+            
+          }
+        
+        ];
+        if (typeof(buildDynamicMenuByJS) != 'undefined' && buildDynamicMenuByJS) {
+            var homeText = '首頁';
+            var firstLevelCrumbName = "";
+            var secondLevelCrumbName = "";
+            var aBreadCrumbs = $("div.content").find("a");
+            if (aBreadCrumbs != null && aBreadCrumbs.length > 0) {
+                for (var i=0; i<aBreadCrumbs.length; i++) {
+                    if ($(aBreadCrumbs[i]).text() == homeText) {
+                        if (i+1 < aBreadCrumbs.length) {
+                            firstLevelCrumbName = $(aBreadCrumbs[(i+1)]).text();
+                        }
+                        if (i+2 < aBreadCrumbs.length) {
+                            secondLevelCrumbName = $(aBreadCrumbs[(i+2)]).text();
+                        }
+                        break;
+                    }
+                }
+            }
+
+            var isFind = false;
+            for (var i=0; i<navMenu.length; i++) {
+
+                if (navMenu[i].display == 'Y' && navMenu[i].title == firstLevelCrumbName) {
+                    isFind = true;
+                    //build matched menu
+
+                    
+
+                    //$("div.panel-heading").text(firstLevelCrumbName);
+                    $("#leftMenu").append("<li class='panel-body-header-bg'><a><i class='fa fa-home fa-fw space01'></i>" + firstLevelCrumbName + "</a></li>");
+                    var subMenuList = navMenu[i].subMenu;
+                    if (subMenuList != null) {
+                        for (var j=0; j<subMenuList.length; j++) {
+                            $("#leftMenu").append("<li><a href=\"" + subMenuList[j].link + "\" title=\"" + subMenuList[j].title + "\">" + subMenuList[j].title + "</a></li>");
+                        }
+                    }
+                    break;
+                }
+            }
+            if (isFind) {
+                if (secondLevelCrumbName != '') {
+                    $("#leftMenu li").removeClass("active");
+                    $("#leftMenu li a[title='" + secondLevelCrumbName + "']").parent("li").addClass("active");
+                } else {
+                    if (firstLevelCrumbName != '') {
+                        $("#leftMenu li").removeClass("active");
+                        $("#leftMenu li a[title='" + firstLevelBreadCrumb + "']").parent("li").addClass("active");
+                    }
+                }
+            } else {
+                //build top level menu
+                //$("div.panel-heading").text(homeText);
+                $("#leftMenu").append("<li class='active'><a><i class='fa fa-home fa-fw space01'></i>" + homeText + "</a></li>");
+                for (var i=0; i<navMenu.length; i++) {
+                    if (navMenu[i].display == 'Y') {
+                        $("#leftMenu").append("<li><a href=\"" + navMenu[i].link + "\" title=\"" + navMenu[i].title + "\">" + navMenu[i].title + "</a></li>");
+                    }
+                }
+            }
+        }
+        
+        
+        $('#contentTitle').html('統一發票管理');
+        
+        
+        if ($("#crumb").length > 0) {
+        
+        }
+        //For original button of font size change handling
+        $("div.font_change a").click(function() {
+            var fontSize = 1.1;
+            var fontSizePx = 15;
+            if (this.className.indexOf('font01') >= 0) { fontSize = 1.0; fontSizePx = 14; }
+            else if (this.className.indexOf('font03') >= 0) { fontSize = 1.2; fontSizePx = 17; }
+            changeContentFontSize(fontSize, fontSizePx);
+        });
+        //For original button of print, back handling
+        $("div.prgoback a").click(function() {
+            if (this.className.indexOf('font01') >= 0) {
+                window.print();
+            } else if (this.className.indexOf('font02') >= 0) {
+                $(this).attr("href", "javascript:void(0);");
+                history.go(-1);
+            }
+        });
+
+        //Original method from baseInclude >>
+        try {
+            if (top.location.hostname != window.location.hostname)
+                top.location.href = window.location.href;
+        } catch (e) {
+            top.location.href = window.location.href;
+        }
+        
+        
+          //Get news by AJAX
+          getBlockTypeLNews();
+        
+        //Set default content font-size
+        changeContentFontSize(1.1, 15);
+        //Button of font size change handling
+        $("div.font-change button").click(function() {
+            $(this).siblings('button').removeClass("active");
+            var fontSize = 1.1;
+            var fontSizePx = 15;
+            if (this.className.indexOf('font-small') >= 0) { fontSize = 1.0; fontSizePx = 14; }
+            else if (this.className.indexOf('font-large') >= 0) { fontSize = 1.2; fontSizePx = 17; }
+            changeContentFontSize(fontSize, fontSizePx);
+            $(this).addClass("active");
+        });
+        //Button of print, mail, back handling
+        $("div.print-mail-back button").click(function() {
+            if (this.className.indexOf('print') >= 0) {
+                if(navigator.userAgent.toLowerCase().indexOf('chrome') > -1){   // Chrome Browser Detected?
+				            	    window.PPClose = false;                                     // Clear Close Flag
+				            	    window.onbeforeunload = function(){                         // Before Window Close Event
+				            	        if(window.PPClose === false){                           // Close not OK?
+				            	            return 'Leaving this page will block the parent window!\nPlease select "Stay on this Page option" and use the\nCancel button instead to close the Print Preview Window.\n';
+				            	        }
+				            	    }                   
+				            	    window.print();                                             // Print preview
+				            	    window.PPClose = true;                                      // Set Close Flag to OK.
+				            	}
+            } else if (this.className.indexOf('back') >= 0) {
+                $(this).attr("href", "javascript:void(0);");
+                history.go(-1);
+            } else if (this.className.indexOf('mail') >= 0) {
+                //openMailForwardDialog();
+            }
+        });
+        //Button of top handling
+        $('#top').click(function() {
+            $('html, body').scrollTop(0);
+        });
+        //Tab change handling
+        $('.nav-tabs a').click(function(e) {
+            e.preventDefault();
+            $(this).parent('li').siblings('li').removeClass("active");
+            $(this).parent('li').addClass("active");
+            var tabContentId = $(this).attr('href') + "_tab_content";
+            var tabMenuId = $(this).attr('href') + "_tab_menu";
+            $(tabContentId).siblings('div').removeClass("active");
+            $(tabContentId).addClass("active");
+            $(tabMenuId).siblings('div').removeClass("active");
+            $(tabMenuId).addClass("active");
+        });
+        //Menu hover style handling
+        $('.dropdown-menu_attach').hover(
+            function() {
+                $(this).parent('li').addClass("active");
+            },
+            function() {
+                $(this).parent('li').removeClass("active");
+            }
+        )
+        //Adjust privacy note message dialog's font size
+        if ($("#privacyNoteMsg").length > 0) {
+            $("#privacyNoteMsg").css("font-size", "1em");
+        }
+
+      //download?fname=ETWF001_20130507135358962.pdf&
+         $("a[href*='download?fname=']").each(function() {
+            var href = $(this).attr('href').match(/(download\?fname=)(.*)\.(.*)(\&+)/);
+            if(href != null){
+                $(this).attr('title',$(this).text() + '[' + href[3].toUpperCase() + ']' );
+            }
+
+        });
+        //Original method from baseInclude <<
+      });
+    </script>
+	
+	<link rel="shortcut icon" type="image/png" href="/res/images/favicon.ico"/>
+	
+</head>
+<body>
+	
+		
+		
+			<a id="firstIndex" href="#rightContent" class="sr-only sr-only-focusable" title="跳到主要內容區塊" >跳到主要內容區塊</a>
+		
+	
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 版面更新時間: 2020-06-02 10:01  -->
+<!-- HEADER START -->
+
+
+<div id="header" class="container-fluid maxw-no">
+	<div class="site-name maxw-1000">
+		<h1 class="logo">
+			<a href="https://www.etax.nat.gov.tw/etwmain/?orgId=FDC" title="財政部標誌回首頁">
+			財政部稅務入口網
+				<img id="fin-logo" src="/etwmain/pt/FDC/ETWF001.20170412123840027.jpg"
+		          class="site-name"  alt="財政部稅務入口網" >
+
+		    </a>
+		</h1>
+		
+        <ul id="second-menu--top" class="nav nav-pills pull-right">
+        	  <li>
+				<a class="accesskey" href="#" accesskey="U" title="上方內容資料呈現區">:::</a>
+			  </li>
+            
+               
+               
+               
+               
+               
+               
+                
+                
+                    <li>
+                      <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/644/7346221686716428757"
+                   title="網站導覽"      >
+                   <span class="space01"></span>網站導覽
+                      </a>
+                   </li>
+                
+               
+
+               
+           
+               
+               
+               
+               
+               
+               
+                
+                
+                    <li>
+                      <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/410"
+                   title="常見問題"      >
+                   <span class="space01"></span>常見問題
+                      </a>
+                   </li>
+                
+               
+
+               
+           
+               
+               
+               
+               
+               
+               
+                
+                
+                    <li>
+                      <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW140W"
+                   title="網站信箱"      >
+                   <span class="space01"></span>網站信箱
+                      </a>
+                   </li>
+                
+               
+
+               
+           
+               
+               
+               
+               
+               
+               
+                
+                
+                    <li>
+                      <a href="https://www.etax.nat.gov.tw/etwmain/front/rss"
+                   title="RSS"      >
+                   <span class="space01"></span>RSS
+                      </a>
+                   </li>
+                
+               
+
+               
+           
+               
+               
+               
+               
+               
+               
+                
+                
+                    <li>
+                      <a href="https://www.etax.nat.gov.tw/etwmain?site=en&isWeb=N"
+                   title="ENGLISH"      >
+                   <span class="space01"></span>ENGLISH
+                      </a>
+                   </li>
+                
+               
+
+               
+           
+               
+               
+               
+               
+               
+               
+                
+                   
+                   <li>
+	                  <a href="/etwmain?isWeb=N"
+	               title="舊版網站"      >
+	               <span class="space01"></span>舊版網站
+	                  </a>
+	               </li>
+                
+                
+               
+
+               
+           
+        </ul>
+		<div class="clearfix"></div>
+		<div id="search" intent in-mobile-append="#nav" in-stadard-after="p.visitor-count">
+
+
+		<style type="text/css">
+				.gsc-selected-option-container {
+					background-color: transparent;
+					border: 1px solid #eee;
+					border: 1px solid rgba(0, 0, 0, 0.1);
+					border-radius: 2px;
+					box-shadow: 0 1px 1px #eee;
+					box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+					color: #444;
+					cursor: default;
+					font-size: 11px;
+					font-weight: bold;
+					height: 27px;
+					line-height: 27px;
+					max-width: 90%;
+					min-width: 54px;
+					outline: 0;
+					padding: 0 28px 0 6px;
+					position: relative;
+					text-align: center;
+					width: 100px!important;
+				}
+				.cse .gsc-search-button-v2, .gsc-search-button-v2{
+				 
+                    
+					    padding: 6px 27px;
+                    
+                    
+                  
+				}
+				.input-group {
+					position: relative;
+					display: block;
+					border-collapse: separate;
+				}
+				@media (max-width: 769px) {
+					.gsc-control-cse {
+                
+                    
+					background-color: #12183d !important;
+                    
+                    
+                
+						border:0px !important;
+						padding:0px !important;
+						z-index:10000;
+
+					}
+					#nav {
+						overflow:visible;
+					}
+					.gsc-results-wrapper-overlay{
+						width:98%  !important;
+						left :0% !important;
+						-webkit-overflow-scrolling: touch;
+					}
+					td.gsc-search-button {
+					
+						
+						width : 30px !important;
+						
+						
+					
+		
+					}
+					td.gsc-clear-button{
+						width : 10px !important;
+						margin:0px !important;
+						padding:0px !important;
+					}
+
+				}
+				@media (min-width: 768px) {
+					.gsc-control-cse {
+                
+                    
+                    background-color: #e8eaf6 !important;
+                    
+                    
+                
+					}
+				}
+
+				@media (min-width: 769px) {
+					.gsc-control-cse {
+						width: 100%;
+					}
+					.gsc-input-box {
+					  padding-top: 6px;
+					  padding-bottom: 0px;
+					  border-top-left-radius: 8px;
+					  border-bottom-left-radius: 8px;
+					}
+					.cse .gsc-search-button-v2, .gsc-search-button-v2{
+						padding: 8px 19px;
+					}
+				}
+				@media screen and (min-width: 669px) and (max-width: 768px) {
+					.gsc-control-cse {
+						width: 200%;
+					}
+					.gsc-input-box {
+					  padding-top: 6px;
+					  padding-bottom: 0px;
+					  border-top-left-radius: 8px;
+					  border-bottom-left-radius: 8px;
+					}
+					.cse .gsc-search-button-v2, .gsc-search-button-v2{
+						padding: 8px 19px;
+					}
+				}
+				@media screen and (min-width: 569px) and (max-width: 669px) {
+					.gsc-control-cse {
+						width: 250%;
+					}
+					.gsc-input-box {
+					  padding-top: 6px;
+					  padding-bottom: 0px;
+					  border-top-left-radius: 8px;
+					  border-bottom-left-radius: 8px;
+					}
+					.cse .gsc-search-button-v2, .gsc-search-button-v2{
+						padding: 8px 19px;
+					}
+				}
+				@media screen and (min-width: 500px) and (max-width: 568px) {
+					.gsc-control-cse {
+						width: 240%;
+					}
+					.gsc-input-box {
+					  padding-top: 6px;
+					  padding-bottom: 0px;
+					  border-top-left-radius: 8px;
+					  border-bottom-left-radius: 8px;
+					}
+					.cse .gsc-search-button-v2, .gsc-search-button-v2{
+						padding: 8px 19px;
+					}
+				}
+				@media screen and (min-width: 420px) and (max-width: 499px) {
+					.gsc-control-cse {
+						width: 200%;
+					}
+					.gsc-input-box {
+					  padding-top: 6px;
+					  padding-bottom: 0px;
+					  border-top-left-radius: 8px;
+					  border-bottom-left-radius: 8px;
+					}
+					.cse .gsc-search-button-v2, .gsc-search-button-v2{
+						padding: 8px 19px;
+					}
+				}
+				@media screen and (min-width: 320px) and (max-width: 419px) {
+					.gsc-control-cse {
+						width: 140%;
+					}
+					.gsc-input-box {
+					  padding-top: 6px;
+					  padding-bottom: 0px;
+					  border-top-left-radius: 8px;
+					  border-bottom-left-radius: 8px;
+					}
+					.cse .gsc-search-button-v2, .gsc-search-button-v2{
+						padding: 8px 19px;
+					}
+				}
+				@media (max-width: 319px) {
+					.gsc-control-cse {
+						width: 130%;
+					}
+				}
+			</style>
+			
+			
+			  
+				
+			  
+			  
+			  
+			  
+			  
+			  
+			
+
+			<form id="searchbox_010876026497796899873:z8pccwwnwyc" name="searchbox_010876026497796899873:z8pccwwnwyc"  class="gcseForm">
+				<input type="hidden" name="cx" value="010876026497796899873:z8pccwwnwyc" />
+				<input type="hidden" name="ie" value="UTF-8" />
+				<div class="input-group">
+					<script>
+						var myCallback = function() {
+							var idx = $("#second-menu--top").find("a").last().attr("tabindex");
+							$("img[class='gsc-branding-img']").attr("alt","googleSearch");
+							idx++;
+							$("#gsc-i-id1").attr("tabindex", idx);
+							idx++;
+							$('input.gsc-search-button').attr("tabindex", idx);
+							idx++;
+							$('div.gsc-clear-button').attr("tabindex", idx);
+							$('div.gsc-clear-button').keypress(function(e){
+								if(e.keyCode == 13){
+								    $(this).click();
+						        }
+							});
+						};
+						window.__gcse = {
+							callback: myCallback
+						};
+						(function() {
+						var cx = '010876026497796899873:z8pccwwnwyc';
+						var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+						gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+						})();
+
+
+					</script>
+					<gcse:search></gcse:search>
+				</div>
+
+				<div class="clearfix"></div>
+
+				
+	            
+			      
+			        
+			      
+			      
+			      
+			      
+			      
+			      
+			    
+				<div class="keyword">
+					<span class="pull-left mt01">熱門搜尋：</span>
+					<span intent="" in-mobile-append="#hot-keywords" class="hot-keywords">
+
+					
+
+						
+					
+
+						
+					
+
+						
+					
+
+						
+
+						 	
+								<a href="#" class="label label-warning keywordsHref" title="房地交易" >
+								房地交易
+								</a>
+							
+								<a href="#" class="label label-warning keywordsHref" title="綜合所得稅" >
+								綜合所得稅
+								</a>
+							
+								<a href="#" class="label label-warning keywordsHref" title="營業稅" >
+								營業稅
+								</a>
+							
+								<a href="#" class="label label-warning keywordsHref" title="營利事業" >
+								營利事業
+								</a>
+							
+								<a href="#" class="label label-warning keywordsHref" title="退稅" >
+								退稅
+								</a>
+							
+
+					  
+					
+
+						
+					
+
+
+
+					</span>
+					<span class="pull-left mt01">其他：</span>
+					<span class="hot-keywords">
+						<a class="label label-warning" href="https://www.google.com.tw/advanced_search?hl=zh-TW&num=100&as_sitesearch=www.etax.nat.gov.tw/etwmain&ie=UTF-8&siteurl=www" title="進階查詢(新開視窗)" target="_blank">進階查詢</a>
+					</span>
+
+
+				</div>
+
+			<input type="hidden" name="as_fid" value="7f970a3eab36f6875ed1cd5f357a54fb8376788f" /></form>
+
+			<script>
+			var tmpNum = 0;
+			$(window).load(function () {
+				var widthPx = document.body.clientWidth;
+					if (widthPx <= 769) {
+					  setEnBnt();	
+				    }
+			});
+			function setEnBnt(){
+				
+				var temp  = $("form > table > tbody > tr > td.gsc-search-button > button").length;
+				if(temp > 0){
+				   
+				} else {
+					if(tmpNum < 10) {
+						setTimeout(setEnBnt, 1000);
+						tmpNum++;
+					}
+				}
+			}
+				function doSearch(text) {
+					if ($('#gsc-i-id1').length > 0 && text != '') {
+						$('#gsc-i-id1').css('background', '');
+						$('#gsc-i-id1').val(text);
+						$('input.gsc-search-button:button').trigger('click');
+					}
+				}
+
+				$(window).load(function () {
+					
+					if ($('#gsc-i-id1').length > 0) {
+						$('#gsc-i-id1').autocomplete({
+			                source: function(request, response) {
+
+			                    var inputText = $('#gsc-i-id1').val();
+
+			                    var suggestQueriesURL = window.location.protocol + "//" + window.location.hostname
+			                        + "/etwmain/front/ETW161W/promptSearch?text="
+			                        + encodeURIComponent(inputText.trim());
+
+			                    $.ajax({
+			                        url: suggestQueriesURL,
+			                        type:"GET",
+			                        dataType:'json',
+			                        success: function(data){
+			                            if(data.promptState && data.promptState == '1'){
+			                                var suggestions = [];
+			                                $.each(data.promptWord, function(key, val) {
+			                                    suggestions.push({"value":val});
+			                                });
+			                                if (suggestions.length > 10) {
+			                                    suggestions.length = 10;
+			                                }
+			                                response(suggestions);
+			                            }
+			                        }
+			                    });
+			                },
+			            });
+
+
+			            /*google suggest queries*/
+			            /*
+			            $('#gsc-i-id1').autocomplete({
+			                source: function(request, response) {
+			                    var suggestQueriesURL = window.location.protocol
+			                                          + "//suggestqueries.google.com/complete/search?callback=?";
+			                    $.getJSON(suggestQueriesURL,
+			                        {
+			                          "hl":"zh-TW",
+			                          "jsonp":"suggestCallBack",
+			                          "q":request.term,
+			                          "client":"youtube"
+			                        }
+			                    );
+			                    suggestCallBack = function (data) {
+			                        var suggestions = [];
+			                        $.each(data[1], function(key, val) {
+			                            suggestions.push({"value":val[0]});
+			                        });
+			                        if (suggestions.length > 10) {
+	                                    suggestions.length = 10;
+	                                }
+			                        response(suggestions);
+			                    };
+			                },
+			            });
+			            */
+					}
+
+					if ($('.keywordsHref').length > 0) {
+						$('.keywordsHref').bind("click", function (e) {
+							e.preventDefault();
+							doSearch($(this).attr('title'))
+						});
+					}
+
+				});
+
+				$(window).load(function () {
+
+                    if ($('.keywordsHref').length > 0) {
+                        $('.keywordsHref').bind("click", function (e) {
+                            e.preventDefault();
+                            doSearch($(this).attr('title'))
+                        });
+                    }
+                });
+
+			</script>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+
+	<!-- 用於電腦版替換行動版 ie9 以下提示 start -->
+	<div class="modal fade" id="ie9URedirectModal" tabindex="-1" role="dialog" aria-labelledby="ie9URedirectModal" >
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header" style="text-align:center;font-size:1.5em;">
+	                <h2>告知事項</h2>
+	            </div>
+	            <div class="modal-body">
+	                <span>本網站已於2016年10月19日改版，由於您的瀏覽器版本不適用於新版網站，將可能導致無法順利瀏覽網站內容或發生錯誤，建議升級為IE10以上版本，
+	                 或轉址到舊版網站。</span> <br>
+	            </div>
+	            <div class="modal-footer">
+	                <button id="btn_continue" type="button" class="btn btn-primary" title="使用新版網站" >繼續</button>
+	                <button id="btn_redirect" type="button" class="btn btn-default" title="使用舊版網站" >前往舊版網站</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<script>
+	    window.onload = function() {
+	        isIE9U();
+	    };
+
+	    function isIE9U() {
+	        var ua = window.navigator.userAgent;
+	        var ieVersion;
+	        var msie = ua.indexOf('MSIE ');
+	        if (msie > 0) {
+	            // IE 10 or older => return version number
+	            ieVersion = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)),
+	                    10);
+	        }
+	        if (typeof (ieVersion) != "undefined" && ieVersion <= 9) {
+	            ie9UModalOpen();
+	        }
+	    }
+	    function ie9UModalOpen() {
+	        var url=window.location.toString();
+	        var modal = $('#ie9URedirectModal');
+	        var btn_continue = $('#btn_continue');
+	        var btn_redirect = $('#btn_redirect');
+	        var option = {
+	            show : 'true',
+	            backdrop : 'static'
+	        };
+	        modal.modal(option);
+	        btn_continue.on('click', function() {
+	            modal.modal('hide');
+	        });
+	        btn_redirect.on('click', function() {
+	            window.location.href = url +'?isWeb=N';
+	        });
+	    }
+        
+	</script>
+	<!-- 如果web版 關閉js 強制導致電腦版-->
+	<noscript>
+	  <meta http-equiv="refresh" content="0;url=https://www.etax.nat.gov.tw/etwmain/?isWeb=N"></meta>
+	</noscript>
+
+	<!-- 用於電腦版替換行動版 ie9 以下提示 end -->
+
+    
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="nav" intent in-mobile-before="#header" in-tablet-after="#header" in-standard-after="#header" class="container-fluid maxw-no">
+	<div class="row">
+		<nav role="navigation" class="col-md-12 navbar navbar-default">
+			<div class="navbar-header">
+				<button type="button" data-toggle="collapse" data-target="#main-menu" class="navbar-toggle" title="功能選單" >
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="main-menu" class="collapse navbar-collapse maxw-1000">
+				<ul class="nav navbar-nav nav-justified">
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/383" title="連結到 公告訊息" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     公告訊息
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/444"
+							                      title="連結到 稅務新聞"  >
+							                      稅務新聞
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/384"
+							                      title="連結到 稅務新聞(分類瀏覽)"  >
+							                      稅務新聞(分類瀏覽)
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/386"
+							                      title="連結到 核定稅額公告"  >
+							                      核定稅額公告
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://web.pcc.gov.tw/tps/pss/tender.do?method=goSearch&searchMode=common&searchType=basic"
+							                      title="連結到 招標資訊(另開視窗)" target="_blank" >
+							                      招標資訊
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.mof.gov.tw/multiplehtml/143"
+							                      title="連結到 就業資訊(另開視窗)" target="_blank" >
+							                      就業資訊
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="http://www.etax.nat.gov.tw/etwmain/front/ETW183W1"
+							                      title="連結到 統一發票中獎號碼"  >
+							                      統一發票中獎號碼
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/667" title="連結到 重大政策" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     重大政策
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.ey.gov.tw/Page/B572E2F7D8DF5CE1"
+							                      title="連結到 行政院院會議案(另開視窗)" target="_blank" >
+							                      行政院院會議案
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.ndc.gov.tw/News.aspx?n=366BF6F932D66304&page=1&PageSize=20"
+							                      title="連結到 行政院院長指示事項(另開視窗)" target="_blank" >
+							                      行政院院長指示事項
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.fia.gov.tw/News.aspx?n=DD102593FDB1A032&sms=3CCB96BC3393301B"
+							                      title="連結到 財政資訊發展方案(另開視窗)" target="_blank" >
+							                      財政資訊發展方案
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.mof.gov.tw/singlehtml/133?cntId=1217"
+							                      title="連結到 財政部施政計畫(另開視窗)" target="_blank" >
+							                      財政部施政計畫
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.dot.gov.tw/ch/home.jsp?id=313&parentpath=0,9,309"
+							                      title="連結到 財政部賦稅署重要措施(另開視窗)" target="_blank" >
+							                      財政部賦稅署重要措施
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/665" title="連結到 稅務資訊" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     稅務資訊
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/402"
+							                      title="連結到 認識稅務"  >
+							                      認識稅務
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/424"
+							                      title="連結到 法規查詢"  >
+							                      法規查詢
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/673"
+							                      title="連結到 統計資訊"  >
+							                      統計資訊
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1212"
+							                      title="連結到 購買節能電器退還減徵貨物稅專區"  >
+							                      購買節能電器退還減徵貨物稅專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1011"
+							                      title="連結到 汰換舊車購買新車減徵貨物稅"  >
+							                      汰換舊車購買新車減徵貨物稅
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/674"
+							                      title="連結到 網路交易課稅專區"  >
+							                      網路交易課稅專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/848"
+							                      title="連結到 房地移轉稅務試算專區"  >
+							                      房地移轉稅務試算專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/703/5808982768282736763"
+							                      title="連結到 預先審核貨物稅徵免專區"  >
+							                      預先審核貨物稅徵免專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/618"
+							                      title="連結到 外商參展退稅"  >
+							                      外商參展退稅
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/916"
+							                      title="連結到 新舊菸品辨識專區"  >
+							                      新舊菸品辨識專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/1279/5558487700125663865"
+							                      title="連結到 應稅貨物或菸酒變質損壞銷毀專區"  >
+							                      應稅貨物或菸酒變質損壞銷毀專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/1016/7267883069178715736"
+							                      title="連結到 新創稅務E指通"  >
+							                      新創稅務E指通
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1168"
+							                      title="連結到 反避稅專區"  >
+							                      反避稅專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1210"
+							                      title="連結到 跨局申辦服務"  >
+							                      跨局申辦服務
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/425" title="連結到 外僑稅務服務" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     外僑稅務服務
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/426"
+							                      title="連結到 外僑與綜合所得稅"  >
+							                      外僑與綜合所得稅
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/427"
+							                      title="連結到 外僑稅務FAQ"  >
+							                      外僑稅務FAQ
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/428"
+							                      title="連結到 個人所得基本稅額"  >
+							                      個人所得基本稅額
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/911"
+							                      title="連結到 個人房屋土地交易所得稅申報(房地合一)"  >
+							                      個人房屋土地交易所得稅申報(房地合一)
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/666" title="連結到 線上服務" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     線上服務
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1268"
+							                      title="連結到 受肺炎疫情影響 申請延期、分期繳稅"  >
+							                      受肺炎疫情影響 申請延期、分期繳稅
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://etd.etax.nat.gov.tw"
+							                      title="連結到 電子稅務文件入口網(另開視窗)" target="_blank" >
+							                      電子稅務文件入口網
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/21"
+							                      title="連結到 線上申辦"  >
+							                      線上申辦
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/22"
+							                      title="連結到 線上查調"  >
+							                      線上查調
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/23"
+							                      title="連結到 線上稅務試算"  >
+							                      線上稅務試算
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/24"
+							                      title="連結到 公示資料查詢"  >
+							                      公示資料查詢
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/439"
+							                      title="連結到 電子申報繳稅服務"  >
+							                      電子申報繳稅服務
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/440" title="連結到 書表及檔案下載" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     書表及檔案下載
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW212W"
+							                      title="連結到 申請書表及範例下載"  >
+							                      申請書表及範例下載
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/443"
+							                      title="連結到 免費軟體下載(另開視窗)" target="_blank" >
+							                      免費軟體下載
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1263"
+							                      title="連結到 繳款書種類及格式"  >
+							                      繳款書種類及格式
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/96" title="連結到 交流園地" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     交流園地
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/698/8342898852310379840"
+							                      title="連結到 國稅信箱"  >
+							                      國稅信箱
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/380/7387645452379223501"
+							                      title="連結到 地方稅信箱"  >
+							                      地方稅信箱
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW140W"
+							                      title="連結到 網站信箱"  >
+							                      網站信箱
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/433"
+							                      title="連結到 相關連結"  >
+							                      相關連結
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1206" title="連結到 稅額試算" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     稅額試算
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1207"
+							                      title="連結到 稅額試算專區"  >
+							                      稅額試算專區
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+						
+							<li class="dropdown">
+							<a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1058" title="連結到 境外電商課稅專區" 
+							     data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"> 
+							     境外電商課稅專區
+							</a> 
+							
+							     <ul role="menu" class="dropdown-menu">
+							         
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/954"
+							                      title="連結到 營業稅專區"  >
+							                      營業稅專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1059"
+							                      title="連結到 營利事業所得稅專區"  >
+							                      營利事業所得稅專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1069"
+							                      title="連結到 扣繳專區"  >
+							                      扣繳專區
+							                    </a>
+											</li>
+										
+											<li>
+											    <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1135"
+							                      title="連結到 雲端發票專區"  >
+							                      雲端發票專區
+							                    </a>
+											</li>
+										
+									</ul>
+								
+						    </li>
+						
+					
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+    <noscript>
+        
+            
+            您的瀏覽器不支援 JavaScript 語法,但是並不影響您獲取本網站的內容，如需回到上一頁可使用瀏覽器提供的(Alt+Left)功能，如需友善列印可使用瀏覽器提供的(Ctrl+P)功能，<br/>
+                    若需變更字型大小，IE請利用鍵盤按住Alt鍵加V->X->(G)最大(L)較大(M)中(S)較小(A)小來選擇適合您的文字大小，而IE7或Firefox瀏覽器則可利用鍵盤Ctrl+(+)放大(-)縮小來改變字型大小，<br/>
+                    如需選擇Radio按鈕選項，可利用鍵盤Shift+ (left/→) 或 Shift+ (right/←)。
+                    如需寄送驗證碼可點擊此按鈕 <a class="btn btn-default" href="/etwmain/front/mailCaptcha?captchaKey=" target="_blank" title="寄送驗證碼 (開新視窗)">寄送驗證碼</a>
+                    <br/>
+                    您的瀏覽器不支援 JavaScript 語法,將無法使用重新產生驗證碼功能，請按F5重載此網頁，以重新產生驗證碼
+           
+        
+    </noscript>
+    <div class="clearfix"></div>
+    <div class="container-fluid">
+
+        
+        
+        
+
+
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        
+
+        <div class="row">
+            <div class="col-sm-3 show-atsm">
+                <a class="accesskey" href="#" accesskey="L" title="左側內容資料呈現區">:::</a>
+                <div class="panel panel-info panel-body-corner">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                
+                  <!-- For menu, no matched menu from first level crumb
+                  <div class="panel-heading"></div>-->
+                  <div class="panel-body">
+                    <ul id="leftMenu" class="nav nav-pills nav-stacked" role="menu">
+                    </ul>
+                  </div>
+                  <script type="text/javascript">var buildDynamicMenuByJS = true;</script>
+                
+                </div>
+            </div>
+            <div id="mainContent" class="col-sm-9 content"> 
+ <!-- contentInclude_zh start --> 
+ <div class="floatR"> 
+  <div class="btn-group font-change"> 
+   <a class="accesskey" href="#" accesskey="C" style="position: relative;float: left;top: 5px;" title="主要內容資料呈現區">:::</a> 
+   <button id="rightContent" class="btn btn-linkedin font-small" title="字級設定 - 小"> 小 </button> 
+   <button class="btn btn-linkedin font-medium active" title="字級設定 - 中"> 中 </button> 
+   <button class="btn btn-linkedin font-large" title="字級設定 - 大"> 大 </button> 
+  </div> 
+  <div class="floatR social-group"> 
+   <div class="print-mail-back"> 
+    <button class="btn btn-dribbble back" title="回上一頁"> <span class="fa fa-backward fa-fw"></span> </button> 
+    <button class="btn btn-stackexchange print" title="友善列印"> <span class="fa fa-print fa-fw"></span> </button>
+    <button class="btn btn-facebook" title="Facebook 分享(另開視窗)"> <span class="fa fa-facebook fa-fw"></span> </button> 
+   </div> 
+   <div class="social-more-alt floatL"> 
+    <button class="btn btn-weibo"> <span class="fa fa-share-alt fa-fw"></span> </button> 
+   </div> 
+  </div> 
+ </div> 
+ <noscript> 
+  <div> 
+   <h2> 您的瀏覽器不支援JavaScript，如需要選擇字級大小，IE或Firefox瀏覽器則可利用鍵盤 Ctrl + (+)放大 (-)縮小來改變字型大小。<br />如需列印，IE或Firefox瀏覽器可利用鍵盤 Ctrl + (P)。<br />如需回上一頁，IE或Firefox瀏覽器可利用鍵盤 Backspace。 </h2> 
+  </div> 
+ </noscript> 
+ <div class="clearfix"></div> 
+ <!-- contentInclude_zh end --> 
+ <script type="text/javascript">
+$(document).ready(function() {
+$(function(){
+	    
+			
+	/**displayContentListF.jsp 換頁元件**/
+	$('#fbonly').footable();	
+	
+	
+	
+	$('.datepicker').datepicker({
+		language: 'zh-TW',
+		format: 'yyy-mm-dd'
+	});
+	
+	
+});	
+});
+</script> 
+ <!-- contentInclude end --> 
+ <!-- 	                <a class="accesskey" href="#" accesskey="C" title="主要內容資料呈現區">:::</a> --> 
+ <style type="text/css">
+    th,  td {
+        vertical-align: middle !important;
+        text-align: center !important;
+    }
+    th {
+        width: 20%
+    }
+    td.number {
+        color: red;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    td.title {
+        color: grey;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    td.des {
+        text-align: left !important;
+        
+    }
+</style> 
+ <div class="crumb">
+   ﻿ 
+  <a href="/etwmain" title="首頁">首頁</a> &gt; 
+  <a href="/etwmain/web/ETW118W/VIEW/383" title="公告訊息">公告訊息</a> &gt; 
+  <a href="/etwmain/web/ETW183W1" title="統一發票中獎號碼">統一發票中獎號碼</a> &gt; 統一發票中獎號碼 
+ </div> 
+ <ul id="tabs01" class="nav nav-tabs hidden-xs nav-tabs_aty"> 
+  <li class="active"><a href="#" data-toggle="tab" title="統一發票中獎號碼單">統一發票中獎號碼單</a></li> 
+ </ul> 
+ <div id="tablet01" class="container-fluid"> 
+  <!--  <h4>109年03月、04月統一發票中獎號碼</h4> --> 
+  <table class="table table-bordered" summary="統一發票中獎號碼單"> 
+   <caption class="hide">
+    統一發票
+   </caption> 
+   <tbody>
+    <tr> 
+     <th id="months">年月份</th> 
+     <td headers="months" class="title"> 109年 03 ~ 04 月 </td> 
+    </tr> 
+    <tr> 
+     <th id="specialPrize" rowspan="2">特別獎</th> 
+     <td headers="specialPrize" class="number"> 91911374 </td> 
+    </tr> 
+    <tr> 
+     <td headers="specialPrize"> 同期統一發票收執聯8位數號碼與特別獎號碼相同者獎金1,000萬元 </td> 
+    </tr> 
+    <tr> 
+     <th id="grandPrize" rowspan="2">特獎</th> 
+     <td headers="grandPrize" class="number"> 08501338 </td> 
+    </tr> 
+    <tr> 
+     <td headers="grandPrize"> 同期統一發票收執聯8位數號碼與特獎號碼相同者獎金200萬元 </td> 
+    </tr> 
+    <tr> 
+     <th id="firstPrize" rowspan="2">頭獎</th> 
+     <td headers="firstPrize" class="number"> <p>57161318</p> <p>23570653</p> <p>47332279</p> <p></p> </td> 
+    </tr> 
+    <tr> 
+     <td headers="firstPrize"> 同期統一發票收執聯8位數號碼與頭獎號碼相同者獎金20萬元 </td> 
+    </tr> 
+    <tr> 
+     <th id="twoPrize">二獎</th> 
+     <td headers="twoPrize"> 同期統一發票收執聯末7 位數號碼與頭獎中獎號碼末7 位相同者各得獎金4萬元 </td> 
+    </tr> 
+    <tr> 
+     <th id="threePrize">三獎</th> 
+     <td headers="threeAwards"> 同期統一發票收執聯末6 位數號碼與頭獎中獎號碼末6 位相同者各得獎金1萬元 </td> 
+    </tr> 
+    <tr> 
+     <th id="fourPrize">四獎</th> 
+     <td headers="fourPrizes"> 同期統一發票收執聯末5 位數號碼與頭獎中獎號碼末5 位相同者各得獎金4千元 </td> 
+    </tr> 
+    <tr> 
+     <th id="fivePrize">五獎</th> 
+     <td headers="fivePrize"> 同期統一發票收執聯末4 位數號碼與頭獎中獎號碼末4 位相同者各得獎金1千元 </td> 
+    </tr> 
+    <tr> 
+     <th id="sixPrize">六獎</th> 
+     <td headers="sixPrize"> 同期統一發票收執聯末3 位數號碼與 頭獎中獎號碼末3 位相同者各得獎金2百元 </td> 
+    </tr> 
+    <tr> 
+     <th id="addSixPrize">增開六獎</th> 
+     <td headers="addSixPrize" class="number"> 519 </td> 
+    </tr> 
+    <tr> 
+     <th id="precautions">領獎注意事項</th> 
+     <td headers="precautions" class="des"> 
+      <div style="margin-left: 11.7pt;"> 
+       <div style="margin-left: 11.7pt;"> 
+        <p style="margin-left: 11.7pt;"> 1.領獎期間自109年6月6日起至109年9月7日止，中獎人請於領獎期間攜帶國民身分證(非本國國籍人士得以護照、居留證或內政部移民署核發入出境許可證等替代)及中獎統一發票，依代發獎金單位公告之兌獎營業時間臨櫃兌領，逾期不得領獎。<br /> 2.統一發票未依規定載明金額者，不得領獎。<br /> 3.統一發票買受人為政府機關、公營事業、公立學校、部隊及營業人者，不得領獎。<br /> 4.中三獎(含)以上者，依規定應由發獎單位扣繳20﹪所得稅款。<br /> 5.中五獎(含)以上者，依規定應繳納0.4%印花稅款。<br /> 6.中獎之統一發票，每張按其最高中獎獎別限領1個獎金。<br /> 7.詳細領獎規定，請查閱「統一發票給獎辦法」。若有疑義，請洽財金公司客服專線：4128282(手機請撥：02-4128282)，或至財金公司網站查詢。<br /> 8.財政部統一發票兌獎APP下載點：<br /> <img src="http://invoice.etax.nat.gov.tw/android.jpg" /> <img src="http://invoice.etax.nat.gov.tw/ios.jpg" /> <img src="http://invoice.etax.nat.gov.tw/etw.jpg" /> <img src="http://invoice.etax.nat.gov.tw/etwweb.jpg" /> &nbsp;&nbsp;&nbsp;Android系統&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ios系統&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;稅務入口網&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;財金公司網站</p> 
+       </div> 
+      </div> <p> &nbsp;</p> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+ </div> 
+</div>
+        </div>
+    </div>
+
+    <a href="#header" id="scrollup" class="scrollup" title="至頂" onclick="firstIndex.focus()"><i class="fa fa-arrow-up"></i></a>
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fat-footer">
+    <div class="container-fluid">
+    <a class="accesskey" href="#" accesskey="F" title="頁尾資訊區">:::</a>
+        <ul  class="nav nav-pills fat-menu row">
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      公告訊息
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/444" title="連結到 稅務新聞" >
+                              稅務新聞
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/384" title="連結到 稅務新聞(分類瀏覽)" >
+                              稅務新聞(分類瀏覽)
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/386" title="連結到 核定稅額公告" >
+                              核定稅額公告
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://web.pcc.gov.tw/tps/pss/tender.do?method=goSearch&searchMode=common&searchType=basic" title="連結到 招標資訊" >
+                              招標資訊
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.mof.gov.tw/multiplehtml/143" title="連結到 就業資訊" >
+                              就業資訊
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="http://www.etax.nat.gov.tw/etwmain/front/ETW183W1" title="連結到 統一發票中獎號碼" >
+                              統一發票中獎號碼
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      重大政策
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.ey.gov.tw/Page/B572E2F7D8DF5CE1" title="連結到 行政院院會議案" >
+                              行政院院會議案
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.ndc.gov.tw/News.aspx?n=366BF6F932D66304&page=1&PageSize=20" title="連結到 行政院院長指示事項" >
+                              行政院院長指示事項
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.fia.gov.tw/News.aspx?n=DD102593FDB1A032&sms=3CCB96BC3393301B" title="連結到 財政資訊發展方案" >
+                              財政資訊發展方案
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.mof.gov.tw/singlehtml/133?cntId=1217" title="連結到 財政部施政計畫" >
+                              財政部施政計畫
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.dot.gov.tw/ch/home.jsp?id=313&parentpath=0,9,309" title="連結到 財政部賦稅署重要措施" >
+                              財政部賦稅署重要措施
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      稅務資訊
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/402" title="連結到 認識稅務" >
+                              認識稅務
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/424" title="連結到 法規查詢" >
+                              法規查詢
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/673" title="連結到 統計資訊" >
+                              統計資訊
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1212" title="連結到 購買節能電器退還減徵貨物稅專區" >
+                              購買節能電器退還減徵貨物稅專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1011" title="連結到 汰換舊車購買新車減徵貨物稅" >
+                              汰換舊車購買新車減徵貨物稅
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/674" title="連結到 網路交易課稅專區" >
+                              網路交易課稅專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/848" title="連結到 房地移轉稅務試算專區" >
+                              房地移轉稅務試算專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/703/5808982768282736763" title="連結到 預先審核貨物稅徵免專區" >
+                              預先審核貨物稅徵免專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/618" title="連結到 外商參展退稅" >
+                              外商參展退稅
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/916" title="連結到 新舊菸品辨識專區" >
+                              新舊菸品辨識專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/1279/5558487700125663865" title="連結到 應稅貨物或菸酒變質損壞銷毀專區" >
+                              應稅貨物或菸酒變質損壞銷毀專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/1016/7267883069178715736" title="連結到 新創稅務E指通" >
+                              新創稅務E指通
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1168" title="連結到 反避稅專區" >
+                              反避稅專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1210" title="連結到 跨局申辦服務" >
+                              跨局申辦服務
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      外僑稅務服務
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/426" title="連結到 外僑與綜合所得稅" >
+                              外僑與綜合所得稅
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/427" title="連結到 外僑稅務FAQ" >
+                              外僑稅務FAQ
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/428" title="連結到 個人所得基本稅額" >
+                              個人所得基本稅額
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/911" title="連結到 個人房屋土地交易所得稅申報(房地合一)" >
+                              個人房屋土地交易所得稅申報(房地合一)
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      線上服務
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1268" title="連結到 受肺炎疫情影響 申請延期、分期繳稅" >
+                              受肺炎疫情影響 申請延期、分期繳稅
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://etd.etax.nat.gov.tw" title="連結到 電子稅務文件入口網" >
+                              電子稅務文件入口網
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/21" title="連結到 線上申辦" >
+                              線上申辦
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/22" title="連結到 線上查調" >
+                              線上查調
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/23" title="連結到 線上稅務試算" >
+                              線上稅務試算
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/24" title="連結到 公示資料查詢" >
+                              公示資料查詢
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/439" title="連結到 電子申報繳稅服務" >
+                              電子申報繳稅服務
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      書表及檔案下載
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW212W" title="連結到 申請書表及範例下載" >
+                              申請書表及範例下載
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/443" title="連結到 免費軟體下載" >
+                              免費軟體下載
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1263" title="連結到 繳款書種類及格式" >
+                              繳款書種類及格式
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      交流園地
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/698/8342898852310379840" title="連結到 國稅信箱" >
+                              國稅信箱
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/380/7387645452379223501" title="連結到 地方稅信箱" >
+                              地方稅信箱
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW140W" title="連結到 網站信箱" >
+                              網站信箱
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/433" title="連結到 相關連結" >
+                              相關連結
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      稅額試算
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1207" title="連結到 稅額試算專區" >
+                              稅額試算專區
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+              
+                  <li class="col-xs-12 col-sm-6 col-md-2">
+                    <a href="javascript: void(0)" class="nav-footer">
+                      境外電商課稅專區
+                    </a>
+                    
+                      <ul class="nav-footer_sub list-unstyled">
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/954" title="連結到 營業稅專區" >
+                              營業稅專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1059" title="連結到 營利事業所得稅專區" >
+                              營利事業所得稅專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1069" title="連結到 扣繳專區" >
+                              扣繳專區
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/1135" title="連結到 雲端發票專區" >
+                              雲端發票專區
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </li>
+              
+          
+        </ul>
+    </div>
+</div>
+
+<div id="second-menu--bottom">
+    <div class="container-fluid text-center">
+        <ul class="nav nav-pills">
+            
+                
+                     
+                        
+                        
+                            <li>
+                                <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/CON/644/7346221686716428757" title="網站導覽">
+                                    網站導覽
+                                </a>
+                            </li>
+                        
+                     
+
+                
+            
+                
+                     
+                        
+                        
+                            <li>
+                                <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW118W/VIEW/410" title="常見問題">
+                                    常見問題
+                                </a>
+                            </li>
+                        
+                     
+
+                
+            
+                
+                     
+                        
+                        
+                            <li>
+                                <a href="https://www.etax.nat.gov.tw/etwmain/front/ETW140W" title="網站信箱">
+                                    網站信箱
+                                </a>
+                            </li>
+                        
+                     
+
+                
+            
+                
+                     
+                        
+                        
+                            <li>
+                                <a href="https://www.etax.nat.gov.tw/etwmain/front/rss" title="RSS">
+                                    RSS
+                                </a>
+                            </li>
+                        
+                     
+
+                
+            
+                
+                     
+                        
+                        
+                            <li>
+                                <a href="https://www.etax.nat.gov.tw/etwmain?site=en&isWeb=N" title="ENGLISH">
+                                    ENGLISH
+                                </a>
+                            </li>
+                        
+                     
+
+                
+            
+                
+                     
+                        
+                            <li>
+                                <a href="/etwmain?isWeb=N" title="舊版網站">
+                                    舊版網站
+                                </a>
+                            </li>
+                        
+                        
+                     
+
+                
+            
+        </ul>
+    </div>
+</div>
+
+<div class="site-info">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-9">
+                <!-- 更新時間: 2020-04-07 17:08  -->
+                <div class="footer_nav">
+	隱私權政策 &nbsp;|&nbsp; 資訊安全政策 &nbsp;|&nbsp; 政府網站資料開放宣告</div>
+<div class="footer_nav">
+	地址：11002 臺北市信義區忠孝東路四段547號</div>
+<div class="copyright">
+	國稅及地方稅免付費電話: 0800-000-321<br />
+	網站操作免付費諮詢電話: 0800-080-369 &nbsp;(周一至周五09:00至18:00 例假日除外)</div>
+<div class="copyright">
+	財政部財政資訊中心CopyRight 2013&copy;&nbsp; 最佳瀏覽解析度1024 x 768畫素 建議使用IE 10 或 Firefox 3.5 以上版本瀏覽器</div>
+
+            </div>
+            <div class="mark col-sm-12 col-md-3 text-center show-atsm mt02">
+                
+                  
+                    <a target="_blank" title="點選會開啟新視窗" href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20170825141057">
+                      <img src="/etwmain/res/images/img_a.jpg" width="88" height="31" alt="通過A+等級無障礙網頁檢測"/>
+                    </a>
+                  
+                  
+                  
+                
+                <a target="_blank" title="我的E政府(另開視窗)" href="http://www.gov.tw/">
+                  <img src="/etwmain/pt/FDC/gov_03.png" width="43" height="45" alt="我的E政府"/>
+                </a>
+            </div>
+        </div>
+
+        <span class="date--update">更新日期：109年06月03日</span>
+
+    </div>
+
+</div>
+
+    <script type="text/javascript" src="/etwmain/res/js/etw.freeGo2Util.js"></script>
+	<script type="text/javascript" src="/etwmain/resources/web/js/content.js"></script>
+</body>
+
+
+ <script type="text/javascript">
+ $(function(){
+	 $('.dropdown').each(function() {
+     $(this).children('a').focus(function() {
+       $(".nav > .dropdown").removeClass("tabfocus open");
+       $(this).parent('.dropdown').addClass("tabfocus open");
+     });
+	 });
+	 $('.dropdown-menu').each(function() {
+	   $(this).find('a').focus(function(){
+	     $(this).css("background-color","#1da8fc");
+	   });
+	     $(this).find('a').blur(function(){
+	         $(this).css("background-color","");
+	     });
+	 });
+	 $('.dropdown-menu').last().find('a').last().blur(function(){
+	   $(".nav > .dropdown").removeClass("tabfocus open");
+	 });
+	 $('.dropdown-item').each(function() {
+	   $(this).children('a').focus(function() {
+	     $(".nav > .dropdown").removeClass("tabfocus");
+	         $(this).parents('.dropdown').addClass("tabfocus");
+	     });
+	 });
+	 $('#header').focusin(function() {
+	     $(".nav > .dropdown").removeClass("tabfocus");
+	 });
+	 $('.row').focusin(function() {
+	   $(".nav > .dropdown").removeClass("tabfocus");
+	 });
+	
+});
+ </script>
+</html>
+
+<!-- content_template_1.jsp end-->
