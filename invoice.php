@@ -23,15 +23,16 @@ $year = date("Y");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>統一發票管理系統</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./icon/piggy-bank.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-light text-center">
     <div class="container py-5">
         <?php include "./include/header.php"; ?>
         <h1 class="text-info pb-3">對　　獎</h1>
-        <form action="invoice.php" method="post" class="col-4 mx-auto">
+        <form action="invoice.php" method="post" class="col-4">
             對獎期數<select onchange="location.href=this.options[this.selectedIndex].value">
 
                 <option value="00" selected>--請選擇期數--</option>
@@ -46,16 +47,6 @@ $year = date("Y");
         </form>
 
 
-        <!-- <ul class="nav">
-        <li><a href="invoice.php?period=1" style="background:<?= ($period == 1) ? 'lightgreen' : 'white'; ?>">1(1,2)</a></li>
-        <li><a href="invoice.php?period=2" style="background:<?= ($period == 2) ? 'lightgreen' : 'white'; ?>">2(3,4)</a></li>
-        <li><a href="invoice.php?period=3" style="background:<?= ($period == 3) ? 'lightgreen' : 'white'; ?>">3(5,6)</a></li>
-        <li><a href="invoice.php?period=4" style="background:<?= ($period == 4) ? 'lightgreen' : 'white'; ?>">4(7,8)</a></li>
-        <li><a href="invoice.php?period=5" style="background:<?= ($period == 5) ? 'lightgreen' : 'white'; ?>">5(9,10)</a></li>
-        <li><a href="invoice.php?period=6" style="background:<?= ($period == 6) ? 'lightgreen' : 'white'; ?>">6(11,12)</a></li>
-    </ul> -->
-        <!-- <a href="add_invoice.php"><button>新增獎號</button></a> -->
-
         <?php
 
         $num1 = find('award_number', ['period' => $period, 'year' => $year, 'type' => 1]); //單筆
@@ -65,9 +56,9 @@ $year = date("Y");
 
         ?>
 
-        <form action="save_number.php" method="post">
+        <form action="save_number.php" method="post" >
 
-            <table class="table　col-md-8">
+            <table class="table　col-md-8 mx-auto">
                 <tr>
                     <th id="months">(新增)年月份</th>
                     <!-- <td><input type="number" name="year" value="<?= $year; ?>"> 年 <?= $monthStr[$period]; ?></td> -->

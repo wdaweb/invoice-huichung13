@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./icon/piggy-bank.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    
 </head>
 
 <body class="bg-light text-center">
@@ -46,12 +48,12 @@
                 <label for="award-num" class="col-sm-2 col-form-label">發票號碼：</label>
                 <div class="input-group col-sm-10">
                     <!-- <div class="col-sm-4"> -->
-                    <input type="text" class="form-control col-sm-6" name="code" placeholder="英文字母2碼">
+                    <input type="text" class="form-control col-sm-3" name="code" placeholder="英文字母2碼">
                     <div class="input-group-append box-sizing: unset">
                         <div class="input-group-text border-0 p-0 m-0 ">
                             <!-- <div class="input-group-text border-0 p-0 m-0"> -->
                             <div class="form form-inline  ">
-                                <input type="number" class="form-control" name="number" placeholder="Number">
+                                <input type="number" class="form-control" name="number" placeholder="數字8碼">
                             </div>
                         </div>
                     </div>
@@ -63,7 +65,7 @@
 
                 <div class="input-group col-sm-6">
 
-                    <input type="number" class="form-control" name="expend" placeholder="Number">
+                    <input type="number" class="form-control" name="expend" placeholder="expend">
                 </div>
 
 
