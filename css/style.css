@@ -1,6 +1,7 @@
-.wid{
-    width: 100px;
-    justify-content: center;
+.cen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 *{
     font-family: 'Noto Sans TC', sans-serif;

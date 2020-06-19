@@ -60,12 +60,12 @@ $row=$pdo->query($sql)->fetch();
                 <label for="award-num" class="col-sm-2 col-form-label">發票號碼：</label>
                 <div class="input-group col-sm-10">
                     <!-- <div class="col-sm-4"> -->
-                    <input type="text" class="form-control" name="code" value=<?=$row['code'];?>>
+                    <input type="text" class="form-control" name="code" value="<?=$row['code'];?>">
                     <div class="input-group-append box-sizing: unset">
                         <div class="input-group-text border-0 p-0 m-0 ">
-                            <!-- <div class="input-group-text border-0 p-0 m-0"> -->
+                          
                             <div class="form form-inline  ">
-                                <input type="number" class="form-control" name="number" value=<?=$row['number'];?>>
+                                <input type="number" class="form-control" name="number" value="<?=$row['number'];?>">
                             </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@ $row=$pdo->query($sql)->fetch();
                 <label for="spend" class="col-sm-2 col-form-label">花　　費：</label>
 
                 <div class="input-group col-sm-10">
-                    <input type="hidden" class="form-control" name="id" value="<?=$id;?>">
-                    <input type="number" class="form-control" name="expend" value=<?=$row['expend'];?>>
+                    <input type="hidden" class="form-control" name="id" value=<?=$id;?>>
+                    <input type="number" class="form-control" name="expend" value="<?=$row['expend'];?>">
                 </div>
 
             <!-- 空格裡直接帶值 -->

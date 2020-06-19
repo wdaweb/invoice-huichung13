@@ -111,7 +111,7 @@ echo "</pre>"; */
                 } 
             }
         }
-        if(empty($ins['number'])){
+        if(isset($ins['number'])){
         echo "沒有這種東西o_o";
         }
 

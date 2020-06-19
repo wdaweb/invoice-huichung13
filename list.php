@@ -28,20 +28,11 @@ if(isset($_GET['year'])){
 ?>
 
 <h1 class="text-info pb-3">發票列表</h1>
-<!-- <ul class="nav">
-<li><a href="list.php?period=1" style="background:<?=($period==1)?'lightgreen':'white';?>">1(1,2)</a></li>
-<li><a href="list.php?period=2" style="background:<?=($period==2)?'lightgreen':'white';?>">2(3,4)</a></li>
-<li><a href="list.php?period=3" style="background:<?=($period==3)?'lightgreen':'white';?>">3(5,6)</a></li>
-<li><a href="list.php?period=4" style="background:<?=($period==4)?'lightgreen':'white';?>">4(7,8)</a></li>
-<li><a href="list.php?period=5" style="background:<?=($period==5)?'lightgreen':'white';?>">5(9,10)</a></li>
-<li><a href="list.php?period=6" style="background:<?=($period==6)?'lightgreen':'white';?>">6(11,12)</a></li>
-</ul> -->
-
 <form action="list.php" method="post" class="col-4">
-<!-- <select name="period" class="form-control"> -->
+
 <select onchange="location.href=this.options[this.selectedIndex].value">
 
-                        <option value="00" selected>--請選擇期數--</option>
+                        <option value="00">--請選擇期數--</option>
                         <option value="list.php?period=1" <?=($period==1)?"selected":"";?>>1,2月</option>
                         <option value="list.php?period=2" <?=($period==2)?"selected":"";?>>3,4月</option>
                         <option value="list.php?period=3" <?=($period==3)?"selected":"";?>>5,6月</option>
@@ -67,7 +58,7 @@ $rows=all('invoice',['period'=>$period]);
 <table class="table table-sm table-light text-center col-md-8 mx-auto">
     <tr>
        
-        <td>編號</td>
+        <!-- <td>編號</td> -->
         <td>標記</td>
         <td>號碼</td>
         <td>花費</td>
@@ -78,7 +69,7 @@ $rows=all('invoice',['period'=>$period]);
     ?>
     <tr>
      
-        <td><?=$row['id'];?></td>
+        <!-- <td><?=$row['id'];?></td> -->
         <td><?=$row['code'];?></td>
         <td><?=$row['number'];?></td>
         <td><?=$row['expend'];?></td>

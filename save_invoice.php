@@ -1,4 +1,7 @@
-
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./icon/piggy-bank.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
 <?php
 include "./com/base.php";
 
@@ -26,16 +29,19 @@ include "./com/base.php";
         'expend'=>$_POST['expend'],
     ];
     $res=save("invoice",$data);
+    echo "<div class='cen'>";
     if($res==1){
-        echo "<h1 class='text-info pb-3'>新增成功</h1>";
+        echo "<h1 class='text-info'>新增成功</h1>";
      
         echo "<meta http-equiv='refresh' content='2;url=list.php'> ";
         // echo "<a href='index.php'>繼續輸入</a><br>";
 
-        echo "<a href='list.php'>發票列表</a>";
+        // echo "<div><a href='list.php'>發票列表</a></div></div>";
+        echo "</div>";
+
     }else{
         echo "新增失敗";
-        echo "<meta http-equiv='refresh' content='3;url=index.php'> ";
+        echo "<meta http-equiv='refresh' content='3;url=index.php'></div> ";
     }
 
 

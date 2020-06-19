@@ -14,7 +14,11 @@
 
 <body class="bg-light text-center">
     <div class="container py-5">
-        <?php include "./include/header.php"; ?>
+        <?php include "./include/header.php"; 
+        $period=ceil(date("n")/2);
+        $year=date("Y");
+        
+        ?>
         <h1 class="text-info pb-3"> 統一發票管理系統</h1>
 
         <form action="save_invoice.php" method="post" class="col-10 mx-auto">
@@ -23,21 +27,21 @@
                 <label for="period" class="col-sm-2 col-form-label">期　　別：</label>
                 <div class="input-group col-sm-6">
                     <select name="year" class="form-control">
-                        <option value="2020" selected>2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
+                        <option value="2020"<?=($year==2020)?"selected":"";?>>2020</option>
+                        <option value="2021"<?=($year==2021)?"selected":"";?>>2021</option>
+                        <option value="2022"<?=($year==2022)?"selected":"";?>>2022</option>
                     </select>
 
                     <div class="input-group-append ">
                         <!-- <div class="input-group-text"> -->
                             <div class="form form-inline  ">
                                 <select name="period" class="form-control">
-                                    <option value="1">1,2月</option>
-                                    <option value="2">3,4月</option>
-                                    <option value="3" selected>5,6月</option>
-                                    <option value="4">7,8月</option>
-                                    <option value="5">9,10月</option>
-                                    <option value="6">11,12月</option>
+                                    <option value="1" <?=($period==1)?"selected":"";?>>1,2月</option>
+                                    <option value="2" <?=($period==2)?"selected":"";?>>3,4月</option>
+                                    <option value="3" <?=($period==3)?"selected":"";?>>5,6月</option>
+                                    <option value="4" <?=($period==4)?"selected":"";?>>7,8月</option>
+                                    <option value="5" <?=($period==5)?"selected":"";?>>9,10月</option>
+                                    <option value="6" <?=($period==6)?"selected":"";?>>11,12月</option>
                                 </select>
                             </div>
                         <!-- </div> -->
